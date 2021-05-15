@@ -1,0 +1,22 @@
+struct test
+{
+    char ch1;
+    Boolean b1;
+    unsigned short us1;
+    unsigned long ul1;
+    uint8 ui1;
+    uint16 ui2;
+    uint32 ui3;
+    uint64 ui4;
+    unsigned long long ui5;
+    int8 i1;
+    int16 i2;
+    int32 i3;
+    int64 i4;
+    short s1;
+    long l1;
+    long long ll1;
+    float f1;
+    double d1;
+    long double ld1;
+}

@@ -1,0 +1,7 @@
+struct_type: struct
+      ID: _test
+      member_list
+            member
+                  type_spec
+                        base_type_spec
+error happens in row 2: ID flaot doesn't match base_type_spec

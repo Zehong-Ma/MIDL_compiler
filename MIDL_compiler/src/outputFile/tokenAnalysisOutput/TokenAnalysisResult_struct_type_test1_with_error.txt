@@ -1,0 +1,4 @@
+struct	 	RESERVEDWORD	 	1
+test	 	ID	 	1
+{	 	SPECIFICSYMBOL	 	1
+}	 	SPECIFICSYMBOL	 	3

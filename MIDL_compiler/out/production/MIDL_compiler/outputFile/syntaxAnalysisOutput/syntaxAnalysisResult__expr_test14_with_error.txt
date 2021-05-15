@@ -1,0 +1,117 @@
+struct_type: struct
+      ID: test
+      member_list
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: float
+                  declarators
+                        declarator
+                              ID: a1
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: double
+                  declarators
+                        declarator
+                              ID: a2
+                        declarator
+                              ID: a3
+                        declarator
+                              ID: a4
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: long double
+                  declarators
+                        declarator
+                              ID: a5
+            member
+                  type_spec
+                        base_type_spec: char
+                  declarators
+                        declarator
+                              ID: a_6
+                              exp_list
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              STRING: "compile"
+                                                                  +mult_expr
+                                                                        unary_expr
+                                                                              +STRING: +"studying"
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              STRING: " "
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              STRING: "abs\\b\t\n\f\r\"\\abs"
+            member
+                  type_spec
+                        base_type_spec: BOOLEAN
+                  declarators
+                        declarator
+                              ID: a_bool_7
+                              exp_list
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 10
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 2
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 1
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 2
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 3
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              BOOLEAN: TRUE
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              BOOLEAN: FALSE
+error happens in row 6: SPECIFICSYMBOL ~ is not equal to ]

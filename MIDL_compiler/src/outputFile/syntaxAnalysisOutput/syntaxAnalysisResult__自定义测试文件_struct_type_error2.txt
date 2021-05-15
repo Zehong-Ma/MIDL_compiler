@@ -1,0 +1,2 @@
+struct_type: struct
+error happens in row 1: RESERVEDWORD int8 doesn't match ID

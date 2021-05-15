@@ -1,0 +1,2 @@
+struct_type: struct
+error happens in row 1: ID strcut is not equal to struct

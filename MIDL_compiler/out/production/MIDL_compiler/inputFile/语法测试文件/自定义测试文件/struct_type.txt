@@ -1,0 +1,6 @@
+struct test
+{
+    int32 a1;
+    int64 a2,a3,a4;
+    long double a5;
+}

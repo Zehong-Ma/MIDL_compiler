@@ -1,0 +1,23 @@
+struct test{
+     float a1;
+     long double a5;
+     STRUCT warp_int{
+        long long   i8;
+     } int1,int2;
+     struct warp_signInt{
+        unsigned long       s8;
+        unsigned long long  s9;
+     } sign1,SIGN2;
+     char a_6["compile"+"studying"," ","abs\b\t\n\f\r\"\\abs"];
+     BOOLEAN a_bool_7[10^2,1&2&3,TRUE|FALSE,~FALSE|~TRUE];
+     long a8[1024>>10,0<<10,100*2/10%2,100+21-19];
+     boolean a9[10^2&3|-1>>10&100<<-10-10+100*2/10%2];
+     struct warp_1{
+        float w1;
+        long  w2;
+        struct warp_2{
+            boolean w3[111&2];
+            char    w4[" \b\t\n\f\r\"\\ "];
+        } w5,w6;
+     } w7,w8;
+}

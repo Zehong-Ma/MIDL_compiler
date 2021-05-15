@@ -1,0 +1,14 @@
+struct	 	RESERVEDWORD	 	1
+test	 	ID	 	1
+{	 	SPECIFICSYMBOL	 	1
+a1	 	ID	 	2
+float	 	RESERVEDWORD	 	2
+;	 	SPECIFICSYMBOL	 	2
+long	 	RESERVEDWORD	 	3
+double	 	RESERVEDWORD	 	3
+a2	 	ID	 	3
+;	 	SPECIFICSYMBOL	 	3
+double	 	RESERVEDWORD	 	4
+a3	 	ID	 	4
+;	 	SPECIFICSYMBOL	 	4
+}	 	SPECIFICSYMBOL	 	5

@@ -1,0 +1,24 @@
+struct_type: struct
+      ID: test
+      member_list
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: float
+                  declarators
+                        declarator
+                              ID: a1
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: long double
+                  declarators
+                        declarator
+                              ID: a2
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: double
+                  declarators
+                        declarator
+                              ID: a3

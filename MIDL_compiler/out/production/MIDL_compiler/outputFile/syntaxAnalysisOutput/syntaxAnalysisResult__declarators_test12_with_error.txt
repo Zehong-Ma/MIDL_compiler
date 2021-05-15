@@ -1,0 +1,20 @@
+struct_type: struct
+      ID: test
+      member_list
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: float
+                  declarators
+                        declarator
+                              ID: a1
+                        declarator
+                              ID: a2
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    signed_int: long
+                  declarators
+                        declarator
+error happens in row 3: SPECIFICSYMBOL ; doesn't match ID

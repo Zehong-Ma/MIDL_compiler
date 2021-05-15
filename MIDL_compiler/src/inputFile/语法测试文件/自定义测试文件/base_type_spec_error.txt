@@ -1,0 +1,5 @@
+struct test
+{
+    int128 aaa;
+    long bbb;
+}

@@ -1,0 +1,160 @@
+struct_type: struct
+      ID: test
+      member_list
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: float
+                  declarators
+                        declarator
+                              ID: a1
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: double
+                  declarators
+                        declarator
+                              ID: a2
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: long double
+                  declarators
+                        declarator
+                              ID: a3
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    signed_int: int8
+                  declarators
+                        declarator
+                              ID: i1
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    signed_int: int16
+                  declarators
+                        declarator
+                              ID: i2
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    signed_int: int32
+                  declarators
+                        declarator
+                              ID: i3
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    signed_int: int64
+                  declarators
+                        declarator
+                              ID: i5
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    signed_int: short
+                  declarators
+                        declarator
+                              ID: i6
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    signed_int: long
+                  declarators
+                        declarator
+                              ID: i7
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    signed_int: long long
+                  declarators
+                        declarator
+                              ID: i8
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    unsigned_int: uint8
+                  declarators
+                        declarator
+                              ID: s1
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    unsigned_int: uint16
+                  declarators
+                        declarator
+                              ID: s2
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    unsigned_int: uint32
+                  declarators
+                        declarator
+                              ID: s3
+                        declarator
+                              ID: s4
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    unsigned_int: uint64
+                  declarators
+                        declarator
+                              ID: s5
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    unsigned_int: unsigned short
+                  declarators
+                        declarator
+                              ID: s6
+                        declarator
+                              ID: s7
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    unsigned_int: unsigned long
+                  declarators
+                        declarator
+                              ID: s8
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    unsigned_int: unsigned long long
+                  declarators
+                        declarator
+                              ID: s9
+            member
+                  type_spec
+                        base_type_spec: char
+                  declarators
+                        declarator
+                              ID: a_6
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    signed_int: long
+                  declarators
+                        declarator
+                              ID: a8
+            member
+                  type_spec
+                        base_type_spec: boolean
+                  declarators
+                        declarator
+                              ID: a9

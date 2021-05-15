@@ -1,0 +1,67 @@
+struct_type: struct
+      ID: test
+      member_list
+            member
+                  type_spec
+                        base_type_spec: char
+                  declarators
+                        declarator
+                              ID: ch1
+            member
+                  type_spec
+                        base_type_spec: Boolean
+                  declarators
+                        declarator
+                              ID: b1
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    unsigned_int: unsigned short
+                  declarators
+                        declarator
+                              ID: us1
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    unsigned_int: unsigned long
+                  declarators
+                        declarator
+                              ID: ul1
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    unsigned_int: uint8
+                  declarators
+                        declarator
+                              ID: ui1
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    unsigned_int: uint16
+                  declarators
+                        declarator
+                              ID: ui2
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    unsigned_int: uint32
+                  declarators
+                        declarator
+                              ID: ui3
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    unsigned_int: uint64
+                  declarators
+                        declarator
+                              ID: ui4
+            member
+                  type_spec
+                        base_type_spec
+error happens in row 11: ID unsinged doesn't match base_type_spec

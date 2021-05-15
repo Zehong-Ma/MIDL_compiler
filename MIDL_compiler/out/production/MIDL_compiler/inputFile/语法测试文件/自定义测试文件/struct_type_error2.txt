@@ -1,0 +1,4 @@
+struct int8
+{
+    int16 a1;
+}

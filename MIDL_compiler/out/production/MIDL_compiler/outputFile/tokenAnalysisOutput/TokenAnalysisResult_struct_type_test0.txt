@@ -1,0 +1,7 @@
+struct	 	RESERVEDWORD	 	1
+test	 	ID	 	1
+{	 	SPECIFICSYMBOL	 	1
+float	 	RESERVEDWORD	 	2
+a1	 	ID	 	2
+;	 	SPECIFICSYMBOL	 	2
+}	 	SPECIFICSYMBOL	 	3

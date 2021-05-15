@@ -1,0 +1,101 @@
+struct_type: struct
+      ID: test
+      member_list
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: float
+                  declarators
+                        declarator
+                              ID: a1
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: double
+                  declarators
+                        declarator
+                              ID: a2
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: long double
+                  declarators
+                        declarator
+                              ID: a3
+            member
+                  type_spec
+                        struct_type: struct
+                              ID: warp_signInt
+                              member_list
+                                    member
+                                          type_spec
+                                                base_type_spec
+                                                      integer_type
+                                                            unsigned_int: unsigned short
+                                          declarators
+                                                declarator
+                                                      ID: s1
+                                                declarator
+                                                      ID: s2
+                                    member
+                                          type_spec
+                                                base_type_spec
+                                                      integer_type
+                                                            unsigned_int: unsigned long
+                                          declarators
+                                                declarator
+                                                      ID: s3
+                                    member
+                                          type_spec
+                                                base_type_spec
+                                                      integer_type
+                                                            unsigned_int: unsigned long long
+                                          declarators
+                                                declarator
+                                                      ID: s4
+                  declarators
+                        declarator
+                              ID: sign1
+            member
+                  type_spec
+                        struct_type: struct
+                              ID: warp_1
+                              member_list
+                                    member
+                                          type_spec
+                                                base_type_spec
+                                                      floating_pt_type: float
+                                          declarators
+                                                declarator
+                                                      ID: w1
+                                    member
+                                          type_spec
+                                                base_type_spec
+                                                      integer_type
+                                                            signed_int: long
+                                          declarators
+                                                declarator
+                                                      ID: w2
+                                    member
+                                          type_spec
+                                                struct_type: struct
+                                                      ID: warp_2
+                                                      member_list
+                                                            member
+                                                                  type_spec
+                                                                        base_type_spec: boolean
+                                                                  declarators
+                                                                        declarator
+                                                                              ID: w3
+                                                            member
+                                                                  type_spec
+                                                                        base_type_spec: char
+                                                                  declarators
+                                                                        declarator
+                                                                              ID: w4
+                                          declarators
+                                                declarator
+                                                      ID: w5
+                  declarators
+                        declarator
+                              ID: w6

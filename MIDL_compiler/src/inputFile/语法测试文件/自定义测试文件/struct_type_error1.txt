@@ -1,0 +1,4 @@
+strcut test
+{
+    int8 a1;
+}

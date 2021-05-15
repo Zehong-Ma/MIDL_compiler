@@ -1,0 +1,5 @@
+struct test
+{
+    int16 aaa
+    double b;
+}

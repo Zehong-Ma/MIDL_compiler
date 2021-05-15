@@ -1,0 +1,23 @@
+struct_type: struct
+      ID: test
+      member_list
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    signed_int: int16
+                  declarators
+                        declarator
+                              ID: aaa
+                              exp_list
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              STRING: "compile"
+                                                                  +mult_expr
+                                                                        unary_expr
+error happens in row 3: RESERVEDWORD float doesn't match (INTEGER|STRING|BOOLEAN) in unary_expr

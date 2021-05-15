@@ -1,0 +1,30 @@
+struct_type: struct
+      ID: test
+      member_list
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    signed_int: int32
+                  declarators
+                        declarator
+                              ID: a1
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    signed_int: int64
+                  declarators
+                        declarator
+                              ID: a2
+                        declarator
+                              ID: a3
+                        declarator
+                              ID: a4
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: long double
+                  declarators
+                        declarator
+                              ID: a5

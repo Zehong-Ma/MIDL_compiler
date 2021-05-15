@@ -1,0 +1,12 @@
+struct_type: struct
+      ID: test
+      member_list
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    signed_int: int16
+                  declarators
+                        declarator
+                              ID: aaa
+error happens in row 4: RESERVEDWORD double is not equal to ;

@@ -1,0 +1,14 @@
+struct_type: struct
+      ID: test
+      member_list
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: float
+                  declarators
+                        declarator
+                              ID: a1
+                        declarator
+                              ID: a2
+                        declarator
+error happens in row 2: RESERVEDWORD long doesn't match ID

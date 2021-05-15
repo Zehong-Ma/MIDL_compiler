@@ -1,0 +1,353 @@
+struct_type: struct
+      ID: test
+      member_list
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: float
+                  declarators
+                        declarator
+                              ID: a1
+            member
+                  type_spec
+                        base_type_spec
+                              floating_pt_type: long double
+                  declarators
+                        declarator
+                              ID: a5
+            member
+                  type_spec
+                        struct_type: struct
+                              ID: warp_int
+                              member_list
+                                    member
+                                          type_spec
+                                                base_type_spec
+                                                      integer_type
+                                                            signed_int: long long
+                                          declarators
+                                                declarator
+                                                      ID: i8
+                  declarators
+                        declarator
+                              ID: int1
+                        declarator
+                              ID: int2
+            member
+                  type_spec
+                        struct_type: struct
+                              ID: warp_signInt
+                              member_list
+                                    member
+                                          type_spec
+                                                base_type_spec
+                                                      integer_type
+                                                            unsigned_int: unsigned long
+                                          declarators
+                                                declarator
+                                                      ID: s8
+                                    member
+                                          type_spec
+                                                base_type_spec
+                                                      integer_type
+                                                            unsigned_int: unsigned long long
+                                          declarators
+                                                declarator
+                                                      ID: s9
+                  declarators
+                        declarator
+                              ID: sign1
+                        declarator
+                              ID: SIGN2
+            member
+                  type_spec
+                        base_type_spec: char
+                  declarators
+                        declarator
+                              ID: a_6
+                              exp_list
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              STRING: "compile"
+                                                                  +mult_expr
+                                                                        unary_expr
+                                                                              STRING: "studying"
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              STRING: " "
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              STRING: "abs\b\t\n\f\r\"\\abs"
+            member
+                  type_spec
+                        base_type_spec: BOOLEAN
+                  declarators
+                        declarator
+                              ID: a_bool_7
+                              exp_list
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 10
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 2
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 1
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 2
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 3
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              BOOLEAN: TRUE
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              BOOLEAN: FALSE
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              ~BOOLEAN: ~FALSE
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              ~BOOLEAN: ~TRUE
+            member
+                  type_spec
+                        base_type_spec
+                              integer_type
+                                    signed_int: long
+                  declarators
+                        declarator
+                              ID: a8
+                              exp_list
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 1024
+                                                            >>add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 10
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 0
+                                                            <<add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 10
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 100
+                                                                        *unary_expr
+                                                                              INTEGER: 2
+                                                                        /unary_expr
+                                                                              INTEGER: 10
+                                                                        %unary_expr
+                                                                              INTEGER: 2
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 100
+                                                                  +mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 21
+                                                                  -mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 19
+            member
+                  type_spec
+                        base_type_spec: boolean
+                  declarators
+                        declarator
+                              ID: a9
+                              exp_list
+                                    or_expr
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 10
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 2
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 3
+                                          xor_expr
+                                                and_expr
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              -INTEGER: -1
+                                                            >>add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 10
+                                                      shift_expr
+                                                            add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 100
+                                                            <<add_expr
+                                                                  mult_expr
+                                                                        unary_expr
+                                                                              -INTEGER: -10
+                                                                  -mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 10
+                                                                  +mult_expr
+                                                                        unary_expr
+                                                                              INTEGER: 100
+                                                                        *unary_expr
+                                                                              INTEGER: 2
+                                                                        /unary_expr
+                                                                              INTEGER: 10
+                                                                        %unary_expr
+                                                                              INTEGER: 2
+            member
+                  type_spec
+                        struct_type: struct
+                              ID: warp_1
+                              member_list
+                                    member
+                                          type_spec
+                                                base_type_spec
+                                                      floating_pt_type: float
+                                          declarators
+                                                declarator
+                                                      ID: w1
+                                    member
+                                          type_spec
+                                                base_type_spec
+                                                      integer_type
+                                                            signed_int: long
+                                          declarators
+                                                declarator
+                                                      ID: w2
+                                    member
+                                          type_spec
+                                                struct_type: struct
+                                                      ID: warp_2
+                                                      member_list
+                                                            member
+                                                                  type_spec
+                                                                        base_type_spec: boolean
+                                                                  declarators
+                                                                        declarator
+                                                                              ID: w3
+                                                                              exp_list
+                                                                                    or_expr
+                                                                                          xor_expr
+                                                                                                and_expr
+                                                                                                      shift_expr
+                                                                                                            add_expr
+                                                                                                                  mult_expr
+                                                                                                                        unary_expr
+                                                                                                                              INTEGER: 111
+                                                                                                      shift_expr
+                                                                                                            add_expr
+                                                                                                                  mult_expr
+                                                                                                                        unary_expr
+                                                                                                                              INTEGER: 2
+                                                            member
+                                                                  type_spec
+                                                                        base_type_spec: char
+                                                                  declarators
+                                                                        declarator
+                                                                              ID: w4
+                                                                              exp_list
+                                                                                    or_expr
+                                                                                          xor_expr
+                                                                                                and_expr
+                                                                                                      shift_expr
+                                                                                                            add_expr
+                                                                                                                  mult_expr
+                                                                                                                        unary_expr
+                                                                                                                              STRING: " \b\t\n\f\r\"
+                                          declarators
+                                                declarator
+                                                      ID: w5
+                                                declarator
+                                                      ID: w6
+                  declarators
+                        declarator
+                              ID: w7
+                        declarator
+                              ID: w8

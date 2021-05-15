@@ -1,0 +1,9 @@
+struct	 	RESERVEDWORD	 	1
+test	 	ID	 	1
+{	 	SPECIFICSYMBOL	 	2
+int16	 	RESERVEDWORD	 	3
+aaa	 	ID	 	3
+double	 	RESERVEDWORD	 	4
+b	 	ID	 	4
+;	 	SPECIFICSYMBOL	 	4
+}	 	SPECIFICSYMBOL	 	5
